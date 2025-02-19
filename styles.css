@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #666;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-container {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eef;
+    border-radius: 5px;
+}
+
+#weather-container img {
+    width: 50px;
+    height: 50px;
+}
+
+#recent-searches {
+    margin-top: 20px;
+}
+
+.recent-search {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recent-search:hover {
+    background-color: #ccc;
+}
+.favorite-city {
+    display: inline-block;
+    margin: 5px 10px; /* Adds space between buttons */
+    padding: 8px 15px;
+    background-color: #f8b400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-city:hover {
+    background-color: #e0a200;
+}
