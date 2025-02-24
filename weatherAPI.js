@@ -1,6 +1,6 @@
 export async function fetchWeather(city) {
-    const apiKey = '0a3fb08b0ff5cc03294fd2d274d64ff2';
-    const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${encodeURIComponent(city)}`;
+    const apiKey = '3ec2fdb97c1608d8d614d9eb0dc53ce8';
+    const url = `https://api.weatherstack.com/current?access_key=${apiKey}&query=${encodeURIComponent(city)}`;
 
     try {
         const response = await fetch(url);
